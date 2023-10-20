@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     background-color: #333;
     font-family: 'Montserrat', sans-serif;
@@ -37,6 +38,13 @@ a {
     letter-spacing: 2px;
     transition: color .3s;
     z-index: 1;
+}
+
+img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
